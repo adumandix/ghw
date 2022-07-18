@@ -6,7 +6,10 @@
 package block
 
 import (
+	"os"
 	"strings"
+	"syscall"
+	"unsafe"
 
 	"github.com/StackExchange/wmi"
 
